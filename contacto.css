@@ -1,0 +1,103 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Jersey+15&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Jersey+15&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: "Lato", sans-serif;
+}
+
+body{
+    background-color: rgba(105, 16, 93, 0.622);
+
+}
+
+
+section{
+    position: relative;
+    width: 50%;
+    height: 50%;
+    display: flex;
+    justify-content: centera;
+    align-items: center;
+    padding: 10%;
+}
+
+header{
+
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100px;
+    padding: 40px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .logo{
+    color: #fff;
+    font-size: 1.5em;
+    text-transform: uppercase;
+    text-decoration: none;
+    background-color: rgb(188, 66, 172);
+    border-radius: 5px;
+    padding: 0 10px;
+    font-family: "Jersey 15", sans-serif;
+    font-weight: 600px;
+}
+
+header .logo:hover{
+     color:  rgb(188, 66, 172);
+     background-color: white;
+     transition: 1s;
+
+}
+
+header .navbar{
+    position: relative;
+    display: flex;
+    
+
+}
+header .navbar li{
+    list-style: none;
+  
+    margin-left: 20px;
+}
+header .navbar li a{
+   text-decoration: none;
+   color: white;
+   font-weight: 500;
+   padding: 10px;
+   transition: 0.3s;
+   font-size: 0.9em;
+   text-transform: uppercase;
+}
+
+
+
+header .navbar li a:hover{
+    border-bottom: 5px solid rgb(188, 66, 172);
+    padding: 2px;
+
+}
+div .imagenfondo{
+    position: absolute;
+    width: 75em;
+    opacity: 50%;
+}
+.icono{
+    padding-left: 20%;
+    margin-top: 20%;
+    margin-left: 40%;
+   text-align: center;
+    position: relative;
+    font-size: 1em;
+    color: aliceblue;
+    display: block;
+}

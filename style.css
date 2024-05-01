@@ -1,0 +1,189 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Jersey+15&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Jersey+15&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: "Lato", sans-serif;
+}
+
+body{
+    background-image: url(img/fondo_realista1.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+
+}
+
+
+section{
+    position: relative;
+    width: 50%;
+    height: 50%;
+    display: flex;
+    justify-content: centera;
+    align-items: center;
+    padding: 10%;
+}
+
+header{
+
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100px;
+    padding: 40px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .logo{
+    color: #fff;
+    font-size: 1.5em;
+    text-transform: uppercase;
+    text-decoration: none;
+    background-color: rgb(188, 66, 172);
+    border-radius: 5px;
+    padding: 0 10px;
+    font-family: "Jersey 15", sans-serif;
+    font-weight: 600px;
+}
+
+header .logo:hover{
+     color:  rgb(188, 66, 172);
+     background-color: white;
+     transition: 1s;
+
+}
+
+header .navbar{
+    position: relative;
+    display: flex;
+    
+
+}
+header .navbar li{
+    list-style: none;
+  
+    margin-left: 20px;
+}
+header .navbar li a{
+   text-decoration: none;
+   color: white;
+   font-weight: 500;
+   padding: 10px;
+   transition: 0.3s;
+   font-size: 0.9em;
+   text-transform: uppercase;
+}
+
+
+
+header .navbar li a:hover{
+    border-bottom: 5px solid rgb(188, 66, 172);
+    padding: 2px;
+
+}
+
+.contenido{
+    position: relative;
+    width: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 10px;
+    
+}
+
+
+.contenido .tituloBOX{
+   
+    position: relative;
+    max-width: 800px;
+    text-align: center;
+
+}
+.contenido .tituloBOX h2{
+    font-size: 2.5em;
+    text-transform: uppercase;
+    color: white;
+}
+
+.contenido .tituloBOX h2 span{
+    background: rgb(188, 66, 172);
+    color:white;
+    padding: 0px;
+    font-family: "Lato", sans-serif;
+    font-weight: 500;
+    border-radius: 30px;
+}
+
+.contenido .tituloBOX p{
+    font-size: 1.5em;
+    line-height: 1.5;
+    color: white;
+    font-family: "Lato", sans-serif;
+    font-weight: 200;
+    margin-bottom: 20px
+}
+.contenido .tituloBOX a{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: rgb(137, 66, 188);
+    background: white;
+    padding: 10px 20px;
+    margin:left - 30px;
+    border-radius: 60px;
+    letter-spacing: 2px;
+    transform: 0.5s;
+}
+
+.copiright {
+    position:relative;
+    margin-top: 90%;
+    left: 55%;
+    margin-bottom: 20px;
+    padding: 0 100px 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.copiright p{
+color: #fff;
+text-align: center;
+margin-left: 100px;
+}
+
+.redesSociales{
+    position: absolute;
+    right: 70px;
+    bottom: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 0px 00px;
+    list-style: none;
+}
+
+.redesSociales li{
+padding: -5%;
+}
+
+.redesSociales li a{
+    color: white;
+    font-size: 2em;
+    transition: 0.3s;
+}
+
+.redesSociales li:hover a{
+    color: rgb(45, 3, 74);
+}
+
+
